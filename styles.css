@@ -1,0 +1,75 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8e1;
+    color: #4e342e;
+    margin: 0;
+    padding: 0;
+}
+
+/* رأس الصفحة */
+header {
+    background-color: #ffcc80;
+    padding: 20px;
+    text-align: center;
+    color: #6d4c41;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* قسم المقدمة */
+.intro {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffe0b2;
+    border-radius: 10px;
+}
+
+/* قائمة الخدمات */
+.services {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffab91;
+    border-radius: 10px;
+}
+
+.services h2 {
+    color: #bf360c;
+}
+
+.services ul {
+    list-style-type: square;
+}
+
+.services li {
+    margin: 10px 0;
+}
+
+/* قسم التواصل */
+.contact {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ff7043;
+    border-radius: 10px;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* تذييل الصفحة */
+footer {
+    background-color: #d84315;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
